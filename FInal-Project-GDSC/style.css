@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.menu {
+    background-color: #08192b;
+    position: fixed;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    z-index: 100000;
+   
+}
+/* start logo */
+.logoGDSC {
+    display: inline-flex;
+    margin-left: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#g {
+    color: #ea4335;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#d {
+    color: #4285f4;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#s {
+    color: #0d9c58;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#c {
+    color: #fbbc08;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* end logo */
+/* start menu pages */
+a {
+    text-decoration: none;
+}
+
+.pages {
+    display: inline-flex;
+    gap: 25px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    margin-left: 940px;
+    margin-top: 20px;
+}
+
+#home {
+    color: #e2e4e6;
+}
+
+#home:hover {
+    color: red;
+    transition: 1s;
+
+}
+
+#video {
+    color: #e2e4e6;
+}
+
+#video:hover {
+    color: red;
+    transition: 1s;
+
+}
+
+#services {
+    color: #e2e4e6;
+}
+
+#services:hover {
+    color: red;
+    transition: 1s;
+
+}
+
+#our-team {
+    color: #e2e4e6;
+}
+
+#our-team:hover {
+    color: red;
+    transition: 1s;
+
+}
+
+#contact {
+    color: #e2e4e6;
+}
+
+#contact:hover {
+    color: red;
+    transition: 1s;
+
+}
+
+/* end menu pages */
+/* start header */
+.header {
+    background-image: url("image/download3\ \(1\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.header img {
+    margin-left: 190px;
+    width: 150px;
+    height: auto;
+    margin-top: 150px;
+}
+
+.header h3 {
+    margin-left: 190px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #0c9656;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.header h1 {
+    margin-left: 190px;
+    color: #4e9eff;
+    font-size: 57px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.header p {
+    margin-left: 190px;
+    color: #e63c32;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 22px;
+}
+
+.header button {
+    margin-left: 190px;
+    background-color: #3a6cf4;
+    color: #fff6fd;
+    font-size: 14px;
+    border: none;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    margin-top: 25px;
+    border-radius: 50px 20px 50px 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.header button:hover {
+    background-color: hsl(223.98deg 92.91% 50.2%);
+    transform: scale(1.1);
+    transition: 1.2s;
+
+}
+
+.continer {
+    display: block;
+}
+
+.social-icons {
+    margin-left: 190px;
+    display: inline-flex;
+    gap: 33px;
+    margin-top: 40px;
+    color: #fff6fd;
+    padding-bottom: 120px;
+}
+
+.bi-bi-linkedin:hover {
+    color: #fbbc08;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.bi-bi-instagram:hover {
+    color: #fbbc08;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.bi-bi-facebook:hover {
+    color: #fbbc08;
+    transition: 1s;
+    cursor: pointer;
+}
+
+/* end header */
+/* start section vedio */
+.section-vedio {
+ 
+    background-color: black;
+    padding: 50px;
+    overflow: hidden;
+
+}
+
+.section-vedio h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    margin-top: 20px;
+    font-size: 40px;
+    text-shadow: 5px 0px 8px white;
+    overflow: hidden;
+
+}
+
+.section-vedio video {
+    margin-top: 40px;
+    display: flex;
+    justify-items: center;
+    /* overflow: hidden; */
+
+}
+
+/* end section vedio */
+/* start services card */
+.section-services {
+    /* width: 100vw;
+    height: auto; */
+    padding: 50px;
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+.section-services h1 {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.services-card {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2);
+    grid-gap: 10px;
+    margin: 40px 100px 0px 100px;
+    row-gap: 30px;
+    overflow-y: hidden;
+}
+
+.card-one {
+    background-color: white;
+    padding: 40px;
+    align-items: center;
+    display: block;
+    width: 270px;
+    height: 360px;
+    border-radius: 20px;
+    border-style: solid rgb(251, 255, 255);
+    transition-duration: 1s;
+    box-shadow: -5px -5px 20px white, 5px 5px 20px #BABECC;
+    
+}
+
+.card-one:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.bi-bi-code-slash,
+.bi-bi-phone,
+.bi-bi-pencil-square,
+.bi-bi-list-check,
+.bi-bi-search,
+.bi-bi-mortarboard-fill {
+    margin-top: 30px;
+    color: #286596;
+
+}
+
+.card-one h2 {
+    color: #286596;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+
+}
+
+.card-one p {
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .services-card{
+        grid-template-columns: repeat(2,1rf);
+    }
+    
+}
+@media (max-width: 480px){
+    .services-card{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* end services card */
+/* start teams */
+.section-team {
+    background-color: black;
+    padding: 50px;
+    margin-top: 0;
+}
+
+.section-team h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+    text-shadow: 5px 0px 8px white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.grid-team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3);
+    margin-top: 40px;
+    row-gap: 5px;
+}
+
+.team-card {
+    column-gap: 10px;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: white;
+    display: block;
+    margin-left: 150px;
+    align-items: center;
+}
+
+.team-card:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    overflow: hidden;
+
+}
+
+.member-img img {
+    width: 400px;
+    margin: 0;
+    height: 500px;
+    border-radius: 20px 20px 0 0;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.member-img img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.member-info p {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.details {
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+.details h3 {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+#details {
+    margin-left: 125px;
+    color: hsl(223.87deg 89.42% 59.22%);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+/* end teams */
+/* start form */
+.secton-form {
+    background-color: white;
+    margin-top: 0;
+    padding: 70px;
+}
+
+.form-details h1 {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+input {
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: -5px -5px 20px white, 5px 5px 20px #BABECC;
+    padding: 10px;
+    border-style: solid;
+    border-color: #fff6fd;
+    padding: 17px;
+    width: 320px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+}
+
+#name {
+    margin-top: 40px;
+    width: 390px;
+}
+
+#email {
+    margin-top: 30px;
+    width: 390px;
+}
+
+#Phone-Number {
+    margin-top: 30px;
+    width: 390px;
+}
+
+#message {
+    margin-top: 30px;
+    padding: 50px;
+}
+
+#btn-form {
+    margin-top: 30px;
+    padding: 20px;
+    border-style: none;
+    background-color: #0d689c;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 15px;
+    border-radius: 60px;
+    cursor: pointer;
+    width: 125px;
+    margin-top: 60px;
+}
+
+#btn-form:hover {
+    transform: scale(1.1);
+    transition: 1.2s;
+    background-color: hsl(223.98deg 92.91% 50.2%);
+}
+
+/* end form */
+/* start footer */
+.footer {
+   margin-top: 20px;
+    background-color: black;
+   min-height: 180px;
+}
+
+.div-one .social-icons {
+    margin-left: 1100px;
+    gap: 15px;
+}
+
+.div-one p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.pro {
+  
+    margin-left: 50px;
+    margin-top: -95px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.nameProgramer a p{
+    color: #3a6cf4;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    margin-top: -17px;
+    margin-left: 180px;
+} 
+#social-footer {
+    color: red;
+    margin-left: 1330px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    margin-top: -17px;
+}
+
+/* end footer */
+
+
